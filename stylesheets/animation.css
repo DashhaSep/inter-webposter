@@ -1,0 +1,156 @@
+/* первый экран */
+@keyframes word {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: -40vw 0;
+  }
+  40% {
+    background-position: -80vw 0;
+  }
+  60% {
+    background-position: -120vw 0;
+  }
+  80% {
+    background-position: -160vw 0;
+  }
+  100% {
+    background-position: -200vw 0;
+  }
+}
+@keyframes go {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  48% {
+    left: 48%;
+    top: 0;
+  }
+  50% {
+    left: 50%;
+    top: -100px;
+  }
+  52% {
+    left: 52%;
+    top: 0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
+/* ВТОРОЙ ЭКРАН */
+@keyframes cross {
+  0% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(-2%);
+  }
+}
+/* не работает */
+.odin ~ .container-row {
+  opacity: 1;
+}
+/* не работает!! */
+.bolshoi:hover {
+  opacity: 1;
+}
+/* третий экран */
+@keyframes moveCircle {
+  0% {
+    transform: translate(32%, 20%);
+  }
+  20% {
+    transform: translate(0%, 0%);
+  }
+  40% {
+    transform: translate(25%, 40%);
+  }
+  60% {
+    transform: translate(55%, 60%);
+  }
+  80% {
+    transform: translate(85%, 0%);
+  }
+  100% {
+    transform: translate(32%, 20%);
+  }
+  /* ЧЕТВЕРТЫЙ ЭКРАН */
+}
+@keyframes row {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.r-line:hover {
+  animation-play-state: paused;
+}
+.r-line p span:hover {
+  color: #fff9e1;
+}
+@keyframes diagramF {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: -38.922vw 0;
+  }
+  40% {
+    background-position: -77.844vw 0;
+  }
+  60% {
+    background-position: -116.766vw 0;
+  }
+  80% {
+    background-position: -156.688 0;
+  }
+  100% {
+    background-position: -194.61 0;
+  }
+}
+/* ПЯТЫЙ ЭКРАН */
+@keyframes unite {
+  0% {
+    background-position: 0 0;
+  }
+  12.5% {
+    background-position: -38.7vw 0;
+  }
+  25% {
+    background-position: -77.4vw 0;
+  }
+  37.5% {
+    background-position: 0 -45.5vw;
+  }
+  50% {
+    background-position: -38.7vw -45.5vw;
+  }
+  62.5% {
+    background-position: -77.4vw -45.5vw;
+  }
+  75% {
+    background-position: 0 -91vw;
+  }
+  87.5% {
+    background-position: -38.7vw -91vw;
+  }
+  100% {
+    background-position: -77.4vw -91vw;
+  }
+}
+/* ПОДВАЛ */
+.aster-uno:hover {
+  background-image: url(../images/aster-uno-open.svg);
+}
+.aster-dos:hover {
+  background-image: url(../images/aster-dos-open.svg);
+}
+.aster-tres:hover {
+  background-image: url(../images/aster-tres-open.svg);
+}

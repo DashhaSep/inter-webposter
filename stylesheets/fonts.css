@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Kosugi";
+  src: url("../fonts/Kosugi-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Monocraft";
+  src: url("../fonts/Monocraft.otf") format("opentype");
+  font-style: normal;
+}

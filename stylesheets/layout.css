@@ -1,0 +1,366 @@
+body {
+  cursor: url(../images/cursor.png), auto;
+}
+section {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+body {
+  background-image: url(../images/1280px.svg);
+  height: 4192px;
+}
+/* body {
+  background-color: #212121;
+} */
+.text-firstscreen {
+  font-family: "Kosugi";
+  font-size: 1vw;
+  color: #fff9e1;
+  position: absolute;
+}
+.one {
+  margin-top: -19.7vw;
+  margin-left: 15.8vw;
+}
+.two {
+  margin-top: -16.2vw;
+  margin-left: 36.1vw;
+}
+.three {
+  margin-top: -16vw;
+  margin-left: 62.8vw;
+}
+.four {
+  margin-top: -19.6vw;
+  margin-left: 89vw;
+}
+.five,
+.six,
+.seven,
+.eight {
+  font-family: "Kosugi";
+  font-size: 2vw;
+  color: #fff9e1;
+  position: absolute;
+}
+.five {
+  margin-top: -25.4vw;
+  margin-left: 44.6vw;
+}
+.six {
+  margin-top: -23vw;
+  margin-left: 59vw;
+}
+.seven {
+  margin-top: -25.6vw;
+  margin-left: 79vw;
+}
+.eight {
+  margin-top: -45.4vw;
+  margin-left: 95.4vw;
+}
+/* не работает */
+.go {
+  animation: go 4s linear infinite;
+}
+.big-Ns {
+  display: flex;
+}
+.N {
+  width: 40vw;
+  height: 47vw;
+  background-repeat: no-repeat;
+  background-image: url(../images/word-inter-whole.svg);
+  margin-top: 9vw;
+
+  animation: word 2s steps(1) infinite;
+}
+.N-2 {
+  margin-left: 20vw;
+  width: 40vw;
+  height: 47vw;
+  background-repeat: no-repeat;
+  background-image: url(../images/word-inter-whole.svg);
+  margin-top: 9vw;
+
+  animation: word 2s steps(1) infinite;
+}
+.lines {
+  position: relative;
+}
+.line-1 {
+  border-top: 0.2vw dashed #fff9e1;
+}
+/* ВТОРОЙ ЭКРАН */
+.first-and-second {
+  display: flex;
+  margin-top: 8vw;
+}
+/* .rock {
+  width: 53.36vw;
+  height: 27.8vw;
+  background-color: blueviolet;
+  background-image: url(../images/rock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 8vw;
+} */
+.rock {
+  width: 53.36vw;
+  height: 27.8vw;
+  background-color: blueviolet;
+
+  opacity: 0.5;
+}
+.third-fourth {
+  width: 53.36vw;
+  height: 48vw;
+  background-color: darkolivegreen;
+  opacity: 0.5;
+}
+.rock-image {
+  margin-left: 18.6vw;
+  width: 36.5%;
+  margin-top: 4.3vw;
+}
+.asteroid-circle {
+  width: 46.4vw;
+  height: 48vw;
+  background-color: brown;
+
+  opacity: 0.5;
+}
+.vertical-text {
+  width: 53.36vw;
+  height: 20.2vw;
+  background-color: cyan;
+  opacity: 0.5;
+}
+.first-vertical {
+  font-family: "Kosugi";
+  color: red;
+  font-size: 2vw;
+  animation: cross 1s linear infinite;
+}
+.secondscreen-circle {
+  position: absolute;
+  width: 54vw;
+  margin-left: -5vw;
+  margin-top: -2.9vw;
+}
+.bolshoi {
+  opacity: 0;
+}
+.circle {
+  height: 1.7vw;
+  width: 1.7vw;
+  background-color: rgb(0, 226, 0);
+  border-radius: 50%;
+}
+.odin {
+  margin-top: -20.3vw;
+  margin-left: 7.8vw;
+}
+.dva {
+  margin-top: -0.7vw;
+  margin-left: 38.5vw;
+}
+.tri {
+  margin-top: 8vw;
+  margin-left: 12vw;
+}
+.chet {
+  margin-top: -3.4vw;
+  margin-left: 46vw;
+}
+.pyat {
+  margin-top: 5.1vw;
+  margin-left: 6.5vw;
+}
+.shest {
+  margin-top: -1.6vw;
+  margin-left: 40.1vw;
+}
+.third {
+  width: 53.36vw;
+  height: 20.547vw;
+  color: crimson;
+  opacity: 0.5;
+}
+.row p {
+  color: chartreuse;
+  font-family: "Kosugi";
+}
+.row {
+  position: absolute;
+}
+.container-row {
+  opacity: 0;
+  background-color: cornflowerblue;
+  height: 1.4vw;
+  width: 10vw;
+  position: relative;
+  margin-left: 10vw;
+  margin-top: -1.5vw;
+}
+/* ТРЕТИЙ ЭКРАН */
+.background {
+  background-color: green;
+  opacity: 0.5;
+  width: 100%;
+  height: 56.25vw;
+}
+.screen-circles {
+  background-color: #212121;
+  border-radius: 100%;
+  position: absolute;
+  /* animation: moveCircle 2s ease infinite;
+  transition: all 0.6s ease; */
+}
+.uno {
+  width: 2.3vw;
+  height: 2.3vw;
+  margin-top: 2.5vw;
+  margin-left: 25vw;
+}
+.dos {
+  width: 2vw;
+  height: 2vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+.tres {
+  width: 2vw;
+  height: 2vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+/* ЧЕТВЕРТЫЙ ЭКРАН */
+.kolonki {
+  font-family: "Monocraft";
+  color: red;
+  font-size: 2.65vw;
+}
+.kolonka-1 {
+  margin-top: 3vw;
+  margin-left: 6vw;
+}
+.kolonka-2 {
+  margin-top: -5.3vw;
+  margin-left: 32vw;
+}
+.kolonka-3 {
+  margin-top: -5.9vw;
+  margin-left: 58vw;
+}
+.kolonka-4 {
+  margin-top: -2.4vw;
+  margin-left: 83.1vw;
+}
+.r-line p {
+  font-size: 2.7vw;
+  width: 200%;
+  font-family: "Monocraft";
+  color: #696969;
+}
+.run-line {
+  padding-top: 2.6vw;
+  height: 5vw;
+  width: 100%;
+  position: relative;
+}
+.r-line {
+  position: absolute;
+  animation: row 6s linear infinite;
+}
+.diagrams {
+  display: flex;
+}
+.diagram-1 {
+  width: 38.922vw;
+  height: 43.203vw;
+  background-color: aqua;
+  opacity: 0.5;
+  background-image: url(../images/diagram-1.svg);
+  background-repeat: no-repeat;
+  margin-left: 4vw;
+  margin-top: -1vw;
+  /* animation: diagramF 4s steps(1) infinite; */
+}
+.diagram-2 {
+  width: 55.15625vw;
+  height: 43.203vw;
+  background-color: crimson;
+  opacity: 0.5;
+}
+/* ПЯТЫЙ ЭКРАН */
+.columns {
+  display: flex;
+}
+.column-1 {
+  background-color: rgb(215, 78, 211);
+  opacity: 0.5;
+  width: 15.703vw;
+  height: 45.547vw;
+}
+.column-2 {
+  background-color: chocolate;
+  opacity: 0.5;
+  width: 38.7vw;
+  height: 45.5vw;
+  background-image: url(../images/asteroid-animation.svg);
+  background-repeat: no-repeat;
+  animation: unite 2s steps(1) infinite;
+}
+.column-3 {
+  background-color: cadetblue;
+  opacity: 0.7;
+  width: 40.78vw;
+  height: 45.5vw;
+  margin-left: 1.8vw;
+}
+/* ПОДВАЛ */
+.aster-uno {
+  background-image: url(../images/aster-uno-closed.svg);
+  width: 27vw;
+  height: 11.2vw;
+  background-repeat: no-repeat;
+}
+.aster-dos {
+  background-image: url(../images/aster-dos-closed.svg);
+  width: 26.5vw;
+  height: 10vw;
+  background-repeat: no-repeat;
+}
+.aster-tres {
+  background-image: url(../images/aster-tres-closed.svg);
+  width: 28vw;
+  height: 10.4vw;
+  background-repeat: no-repeat;
+}
+.asters {
+  display: flex;
+  margin-left: 6vw;
+  margin-top: 8vw;
+  gap: 4vw;
+  align-items: center;
+}
+.text-cover {
+  font-family: "Kosugi";
+  color: #212121;
+  font-size: 1.5vw;
+  position: absolute;
+}
+.me {
+  margin-top: -8vw;
+  margin-left: 13vw;
+}
+.group {
+  margin-top: -1.6vw;
+  margin-left: 45vw;
+}
+.kamila {
+  margin-top: -1.6vw;
+  margin-left: 72vw;
+}
