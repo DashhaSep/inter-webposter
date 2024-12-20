@@ -1,0 +1,32 @@
+/* проба второй экран */
+@media screen and (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+  .first-and-second,
+  .diagrams,
+  .columns,
+  .asters {
+    display: grid;
+    justify-content: center;
+  }
+  .N-2,
+  .column-1 {
+    display: none;
+  }
+  .first-and-second {
+    width: 100%;
+  }
+  .background {
+    rotate: 90deg;
+  }
+  .third-fourth {
+    width: 100%;
+  }
+
+  /* размеры */
+  .rock-image {
+    width: 20vw;
+    height: 20vw;
+  }
+}

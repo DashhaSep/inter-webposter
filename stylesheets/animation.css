@@ -1,4 +1,12 @@
 /* первый экран */
+@keyframes attemp {
+  0% {
+    transform: translateX(-3%);
+  }
+  100% {
+    transform: translateX(3%);
+  }
+}
 @keyframes word {
   0% {
     background-position: 0 0;
@@ -44,21 +52,84 @@
 /* ВТОРОЙ ЭКРАН */
 @keyframes cross {
   0% {
-    transform: translateY(30%);
+    transform: translateY(0%);
   }
   100% {
-    transform: translateY(-2%);
+    transform: translateY(-70%);
   }
 }
-/* не работает */
-.odin ~ .container-row {
+@keyframes asteroid-circles {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: -47vw 0;
+  }
+  50% {
+    background-position: -94vw 0;
+  }
+  75% {
+    background-position: -141vw 0;
+  }
+  100% {
+    background-position: -188vw 0;
+  }
+}
+
+.odin:hover + .container-row {
   opacity: 1;
 }
-/* не работает!! */
-.bolshoi:hover {
+.dva:hover + .same-container-row {
   opacity: 1;
 }
+.tri:hover + .four-same-container-row {
+  opacity: 1;
+}
+.chet:hover + .three-same-container-row {
+  opacity: 1;
+}
+.pyat:hover + .five-same-container-row {
+  opacity: 1;
+}
+.shest:hover + .six-same-container-row {
+  opacity: 1;
+}
+
 /* третий экран */
+@keyframes for-the-background {
+  from {
+    background-color: #fff9e1;
+  }
+  40% {
+    background-color: #212121;
+  }
+  50% {
+    background-color: #7d7d7d;
+  }
+  90% {
+    background-color: #212121;
+  }
+  to {
+    background-color: #212121;
+  }
+}
+@keyframes animation {
+  from {
+    background-color: #212121;
+  }
+  40% {
+    background-color: #7d7d7d;
+  }
+  50% {
+    background-color: #fff9e1;
+  }
+  90% {
+    background-color: #7d7d7d;
+  }
+  to {
+    background-color: #fff9e1;
+  }
+}
 @keyframes moveCircle {
   0% {
     transform: translate(32%, 20%);
@@ -78,8 +149,29 @@
   100% {
     transform: translate(32%, 20%);
   }
-  /* ЧЕТВЕРТЫЙ ЭКРАН */
 }
+/* если я ставлю эту траекторию — всё выходит из экрана */
+/* @keyframes moveCircle {
+  0% {
+    transform: translate(202%, 170%);
+  }
+  20% {
+    transform: translate(300%, 100%);
+  }
+  40% {
+    transform: translate(105%, 400%);
+  }
+  60% {
+    transform: translate(75%, 200%);
+  }
+  80% {
+    transform: translate(405%, 400%);
+  }
+  100% {
+    transform: translate(32%, 40%);
+  } */
+/* ЧЕТВЕРТЫЙ ЭКРАН */
+
 @keyframes row {
   0% {
     transform: translateX(0%);
@@ -94,24 +186,33 @@
 .r-line p span:hover {
   color: #fff9e1;
 }
+
 @keyframes diagramF {
   0% {
     background-position: 0 0;
   }
   20% {
-    background-position: -38.922vw 0;
+    background-position: -47vw 0;
   }
   40% {
-    background-position: -77.844vw 0;
+    background-position: -94vw 0;
   }
   60% {
-    background-position: -116.766vw 0;
+    background-position: -141vw 0;
   }
   80% {
-    background-position: -156.688 0;
+    background-position: -188vw 0;
   }
   100% {
-    background-position: -194.61 0;
+    background-position: -235vw 0;
+  }
+}
+@keyframes diagramF2 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -55vw 0;
   }
 }
 /* ПЯТЫЙ ЭКРАН */
@@ -143,6 +244,25 @@
   100% {
     background-position: -77.4vw -91vw;
   }
+}
+@keyframes side-eyes {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-45%);
+  }
+}
+@keyframes star-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.star-5:hover {
+  animation-play-state: paused;
 }
 /* ПОДВАЛ */
 .aster-uno:hover {
