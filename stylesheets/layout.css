@@ -10,6 +10,11 @@ section {
   background-image: url(../images/1280px.svg);
   height: 4192px;
 } */
+/* body {
+  background-image: url(../images/iphone-mockup.svg);
+  height: 4000px;
+  opacity: 0.5;
+} */
 body {
   background-color: #212121;
 }
@@ -74,7 +79,7 @@ body {
   display: flex;
   width: 100%;
   position: relative;
-  animation: attemp 9s linear infinite;
+  /* animation: attemp 9s linear infinite; */
 }
 .N {
   width: 40vw;
@@ -83,7 +88,7 @@ body {
   background-image: url(../images/word-inter-whole.svg);
   margin-top: 9vw;
   background-size: 200vw;
-  animation: word 2s steps(1) infinite;
+  /* animation: word 2s steps(1) infinite; */
 }
 .N-2 {
   margin-left: 20vw;
@@ -98,6 +103,7 @@ body {
 }
 .lines {
   position: absolute;
+  z-index: 1;
   /* background-color: red; */
 
   height: 100vw;
@@ -115,7 +121,6 @@ body {
   top: 32.4vw;
   width: 100%;
   position: relative;
-  z-index: 100;
 }
 .line-3 {
   border-top: 0.2vw dashed #fff9e1;

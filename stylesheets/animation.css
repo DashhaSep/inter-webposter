@@ -274,3 +274,24 @@
 .aster-tres:hover {
   background-image: url(../images/aster-tres-open.svg);
 }
+/* АДАПТИВЫ */
+
+/* первый экран буквы */
+@keyframes word-adapt {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: -120vw 0;
+  }
+  40% {
+    background-position: -240vw 0;
+  }
+  60% {
+    background-position: -360vw 0;
+  }
+  80% {
+    background-position: -487vw 0;
+  }
+}
+/* пятый экран */

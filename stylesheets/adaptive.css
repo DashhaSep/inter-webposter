@@ -1,7 +1,8 @@
 /* проба второй экран */
 @media screen and (max-width: 767px) {
-  section {
+  .FIRST-ADAPT {
     width: 100%;
+    height: 191vw;
   }
   .first-and-second,
   .diagrams,
@@ -18,7 +19,8 @@
     width: 100%;
   }
   .background {
-    rotate: 90deg;
+    width: 100vw;
+    height: 219vw;
   }
   .third-fourth {
     width: 100%;
@@ -28,5 +30,162 @@
   .rock-image {
     width: 20vw;
     height: 20vw;
+  }
+  .N {
+    width: 120vw;
+    height: 142vw;
+    background-repeat: no-repeat;
+    background-size: 600vw;
+    margin-left: -10vw;
+    animation: word-adapt 2s steps(1) infinite;
+  }
+  .line-1 {
+    top: 25.9vw;
+  }
+  .line-2 {
+    top: 165.8vw;
+  }
+  .line-3 {
+    top: 185.6vw;
+  }
+  .line-4 {
+    top: 93vw;
+  }
+  .line-5 {
+    top: 35.7vw;
+    width: 100vw;
+  }
+  .line-6 {
+    border-top: 0.2vw dashed #fff9e1;
+    position: absolute;
+    z-index: 1;
+    top: 136vw;
+    width: 100vw;
+    rotate: 90deg;
+  }
+  .big-Ns {
+    margin-top: 16.5vw;
+  }
+  .five,
+  .six,
+  .seven,
+  .eight {
+    font-size: 4.25vw;
+  }
+  .seven {
+    margin-top: -78.6vw;
+    margin-left: 60.4vw;
+  }
+  .text-firstscreen {
+    font-size: 2vw;
+  }
+  .eight {
+    margin-top: -138.4vw;
+    margin-left: 90.4vw;
+  }
+  .one {
+    margin-top: -56.4vw;
+    margin-left: 3.8vw;
+  }
+  .two {
+    margin-top: -47.2vw;
+    margin-left: 20.1vw;
+  }
+  .three {
+    margin-top: -47.5vw;
+    margin-left: 60.8vw;
+  }
+  .four {
+    margin-top: -56.4vw;
+    margin-left: 79vw;
+  }
+  .six {
+    margin-top: -69.3vw;
+    margin-left: 30vw;
+  }
+  .five {
+    margin-top: -73.4vw;
+    margin-left: 4.6vw;
+  }
+  .SS {
+    display: none;
+  }
+  /* второй экран */
+  .rock {
+    width: 100vw;
+    height: 70.8vw;
+  }
+  .rock-image {
+    width: 60vw;
+    height: 50vw;
+    margin-top: 15vw;
+  }
+  .vertical-text {
+    width: 100vw;
+    height: 50vw;
+    overflow: hidden;
+    background-color: blue;
+  }
+  .asteroid-circle {
+    background-color: green;
+    margin-top: 103vw;
+    height: 80vw;
+    width: 80vw;
+    background-size: 306vw 67vw;
+  }
+  .first-vertical {
+    font-size: 5vw;
+    animation: cross 14s linear infinite;
+    text-align: center;
+  }
+  .vertical-text {
+    margin-top: 20vw;
+  }
+  /* пятый экран */
+  .column-2 {
+    background-size: 299.48vw 350.9vw;
+    animation: unite 2s steps(1) infinite;
+  }
+  .column-2,
+  .column-3 {
+    width: 100vw;
+    height: 120vw;
+  }
+  .asters {
+    height: 80vw;
+  }
+  .aster-uno {
+    width: 60vw;
+    height: 24vw;
+    background-repeat: no-repeat;
+    margin-left: -2.4vw;
+    background-size: 58.28vw 22vw;
+    background-color: red;
+  }
+  .aster-dos {
+    width: 58.5vw;
+    height: 21vw;
+    background-repeat: no-repeat;
+    background-size: 57.9vw 20.3vw;
+    background-color: green;
+  }
+  .aster-tres {
+    width: 50vw;
+    height: 21vw;
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-size: 49.5vw 20.3vw;
+  }
+  .group {
+    margin-top: 30vw;
+    margin-left: 37vw;
+  }
+  .me {
+    margin-top: 7vw;
+    margin-left: 36.2vw;
+  }
+  .hse {
+    margin-top: 22vw;
+    margin-left: 32.6vw;
   }
 }
