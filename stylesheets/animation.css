@@ -192,19 +192,16 @@
     background-position: 0 0;
   }
   20% {
-    background-position: -47vw 0;
+    background-position: -39vw 0;
   }
   40% {
-    background-position: -94vw 0;
+    background-position: -78vw 0;
   }
   60% {
-    background-position: -141vw 0;
+    background-position: -117vw 0;
   }
   80% {
-    background-position: -188vw 0;
-  }
-  100% {
-    background-position: -235vw 0;
+    background-position: -156vw 0;
   }
 }
 @keyframes diagramF2 {
@@ -294,4 +291,69 @@
     background-position: -487vw 0;
   }
 }
+/* второй экран */
+@keyframes asteroid-circles-adapt {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: -68.8vw 0;
+  }
+  50% {
+    background-position: -137.6vw 0;
+  }
+  75% {
+    background-position: -206.4vw 0;
+  }
+  100% {
+    background-position: -344vw 0;
+  }
+}
+/* четвертый экран */
+@keyframes diagramF-adapt {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: -58vw 0;
+  }
+  40% {
+    background-position: -116vw 0;
+  }
+  60% {
+    background-position: -174vw 0;
+  }
+  80% {
+    background-position: -232vw 0;
+  }
+}
 /* пятый экран */
+@keyframes unite-adapt {
+  0% {
+    background-position: 0 0;
+  }
+  12.5% {
+    background-position: -100vw 0;
+  }
+  25% {
+    background-position: -200vw 0;
+  }
+  37.5% {
+    background-position: 0 -120vw;
+  }
+  50% {
+    background-position: -100vw -120vw;
+  }
+  62.5% {
+    background-position: -200vw -120vw;
+  }
+  75% {
+    background-position: 0 -240vw;
+  }
+  87.5% {
+    background-position: -100vw -240vw;
+  }
+  100% {
+    background-position: -200vw -240vw;
+  }
+}

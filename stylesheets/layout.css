@@ -88,7 +88,7 @@ body {
   background-image: url(../images/word-inter-whole.svg);
   margin-top: 9vw;
   background-size: 200vw;
-  /* animation: word 2s steps(1) infinite; */
+  animation: word 2s steps(1) infinite;
 }
 .N-2 {
   margin-left: 20vw;
@@ -999,7 +999,7 @@ body {
   background-repeat: no-repeat;
   margin-left: 4vw;
   margin-top: -1vw;
-  background-size: 243vw 50vw;
+  background-size: 195vw 45vw;
   animation: diagramF 4s steps(1) infinite;
 }
 .diagram-2 {
@@ -1394,4 +1394,10 @@ body {
 .hse {
   margin-top: -3vw;
   margin-left: 65.6vw;
+}
+.background-2 {
+  display: none;
+}
+.space {
+  height: 24vw;
 }
