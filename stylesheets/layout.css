@@ -1,5 +1,5 @@
 body {
-  cursor: url(../images/cursor.png), auto;
+  cursor: url(../images/cursor-2.png), auto;
 }
 section {
   width: 100vw;
@@ -192,7 +192,7 @@ body {
 .circle {
   height: 1.7vw;
   width: 1.7vw;
-  background-color: #fff9e1;
+  background-color: #999999;
   border-radius: 50%;
 }
 .odin {
@@ -1000,7 +1000,7 @@ body {
   margin-left: 4vw;
   margin-top: -1vw;
   background-size: 195vw 45vw;
-  animation: diagramF 4s steps(1) infinite;
+  /* animation: diagramF 4s steps(1) infinite; */
 }
 .diagram-2 {
   width: 55.15625vw;

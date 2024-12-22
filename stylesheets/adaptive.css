@@ -117,22 +117,27 @@
     width: 6.7vw;
   }
   .odin {
-    margin-top: -52.3vw;
+    margin-top: -54.6vw;
+    margin-left: 18vw;
   }
   .dva {
     margin-top: -6.7vw;
-    margin-left: 72.5vw;
+    margin-left: 67.5vw;
   }
   .tri {
-    margin-top: 20vw;
+    margin-top: 15vw;
   }
   .chet {
-    margin-top: 14.4vw;
-    margin-left: 60vw;
+    margin-top: -6vw;
+    margin-left: 85.5vw;
+  }
+  .pyat {
+    margin-top: 18.1vw;
+    margin-left: 12.5vw;
   }
   .shest {
-    margin-top: -2.6vw;
-    margin-left: 80.1vw;
+    margin-top: -6.6vw;
+    margin-left: 73.1vw;
   }
   .rock-image {
     width: 60vw;
@@ -143,7 +148,7 @@
     width: 100vw;
     height: 50vw;
     overflow: hidden;
-    background-color: blue;
+    /* background-color: blue; */
   }
   .asteroid-circle {
     /* background-color: green; */
@@ -160,16 +165,24 @@
     text-align: center;
   }
   .vertical-text {
-    margin-top: 20vw;
+    margin-top: 16vw;
   }
   /* четвертый экран */
   .diagram-1 {
-    width: 55.922vw;
-    height: 63.203vw;
+    width: 95.922vw;
+    height: 83.203vw;
     margin-top: -10vw;
-    background-color: red;
-    background-size: 290.75vw 70vw;
+    /* background-color: red; */
+    background-size: 450.75vw 94vw;
     animation: diagramF-adapt 4s steps(1) infinite;
+    margin-left: 0vw;
+  }
+  .diagram-2 {
+    width: 95.15625vw;
+    height: 83.203vw;
+    background-size: 190vw 90.4vw;
+    animation: diagramF2-adapt 0.3s steps(1) infinite;
+    /* background-color: blue; */
   }
   /* пятый экран */
   .column-2 {
@@ -180,6 +193,15 @@
   .column-3 {
     width: 102vw;
     height: 120vw;
+  }
+  .star-5 {
+    display: none;
+  }
+  .column-3 {
+    background-image: url(../images/starsiphoneanimation.svg);
+    background-repeat: no-repeat;
+    background-size: 211.2vw 128vw;
+    animation: iphone-stars 0.3s steps(1) infinite;
   }
   .aster-uno {
     width: 80vw;
@@ -218,9 +240,9 @@
   .text-cover {
     font-size: 4.5vw;
   }
-  .for-rotation {
+  /* .for-rotation {
     rotate: 90deg;
-  }
+  } */
   .space {
     height: 130vw;
   }
