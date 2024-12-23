@@ -226,6 +226,9 @@
     animation: for-the-background 4s steps(1) infinite;
   }
   /* четвертый экран */
+  .THE-kolonki {
+    display: none;
+  }
   .diagram-1 {
     width: 95.922vw;
     height: 83.203vw;
@@ -234,6 +237,7 @@
     background-size: 450.75vw 94vw;
     animation: diagramF-adapt 4s steps(1) infinite;
     margin-left: 0vw;
+    margin-top: 1vw;
   }
   .diagram-2 {
     width: 95.15625vw;
