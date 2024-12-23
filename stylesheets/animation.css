@@ -76,22 +76,12 @@
   }
 }
 
-.odin:hover + .container-row {
-  opacity: 1;
-}
-.dva:hover + .same-container-row {
-  opacity: 1;
-}
-.tri:hover + .four-same-container-row {
-  opacity: 1;
-}
-.chet:hover + .three-same-container-row {
-  opacity: 1;
-}
-.pyat:hover + .five-same-container-row {
-  opacity: 1;
-}
-.shest:hover + .six-same-container-row {
+.odin:hover ~ .container-row,
+.dva:hover ~ .same-container-row,
+.tri:hover ~ .four-same-container-row,
+.chet:hover ~ .three-same-container-row,
+.pyat:hover ~ .five-same-container-row,
+.shest:hover ~ .six-same-container-row {
   opacity: 1;
 }
 
@@ -314,14 +304,14 @@
   0% {
     background-position: 0 0;
   }
-  33% {
-    background-position: -85vw 0;
+  25% {
+    background-position: -177vw 0;
   }
   50% {
     background-position: -265vw 0;
   }
-  90% {
-    background-position: -355vw 0;
+  75% {
+    background-position: -353vw 0;
   }
 }
 @keyframes diagramF2-adapt {

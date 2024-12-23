@@ -194,6 +194,8 @@ body {
   width: 1.7vw;
   background-color: #999999;
   border-radius: 50%;
+  position: relative;
+  z-index: 2;
 }
 .odin {
   margin-top: -20.3vw;
@@ -259,7 +261,7 @@ body {
   height: 1.4vw;
   width: 9vw;
   margin-left: 48.5vw;
-  margin-top: -3.3vw;
+  margin-top: -1.65vw;
   position: absolute;
 }
 .four-same-container-row {
@@ -295,6 +297,12 @@ body {
   animation: for-the-background 4s steps(1) infinite;
   width: 100%;
   height: 56.25vw;
+}
+.background2-2 {
+  display: none;
+}
+.background3-3 {
+  display: none;
 }
 .screen-circles {
   background-color: #212121;
@@ -1000,7 +1008,7 @@ body {
   margin-left: 4vw;
   margin-top: -1vw;
   background-size: 195vw 45vw;
-  /* animation: diagramF 4s steps(1) infinite; */
+  animation: diagramF 4s steps(1) infinite;
 }
 .diagram-2 {
   width: 55.15625vw;
