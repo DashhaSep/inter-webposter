@@ -50,6 +50,9 @@
   }
 }
 /* ВТОРОЙ ЭКРАН */
+.first-vertical:hover {
+  animation-play-state: paused;
+}
 @keyframes cross {
   0% {
     transform: translateY(0%);
@@ -140,26 +143,6 @@
     transform: translate(32%, 20%);
   }
 }
-/* если я ставлю эту траекторию — всё выходит из экрана */
-/* @keyframes moveCircle {
-  0% {
-    transform: translate(202%, 170%);
-  }
-  20% {
-    transform: translate(300%, 100%);
-  }
-  40% {
-    transform: translate(105%, 400%);
-  }
-  60% {
-    transform: translate(75%, 200%);
-  }
-  80% {
-    transform: translate(405%, 400%);
-  }
-  100% {
-    transform: translate(32%, 40%);
-  } */
 /* ЧЕТВЕРТЫЙ ЭКРАН */
 
 @keyframes row {
@@ -356,7 +339,13 @@
   0% {
     background-position: 0 0;
   }
-  50% {
+  33% {
     background-position: -100.1vw 0;
+  }
+  66% {
+    background-position: -201.5vw 0;
+  }
+  99% {
+    background-position: -302.1vw 0;
   }
 }

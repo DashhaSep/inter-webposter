@@ -18,12 +18,9 @@
   .first-and-second {
     width: 100%;
   }
-
   .third-fourth {
     width: 100%;
   }
-
-  /* размеры */
   .rock-image {
     width: 20vw;
     height: 20vw;
@@ -69,10 +66,13 @@
   .eight {
     font-size: 4.25vw;
   }
+  .seven,
+  .four {
+    text-align: end;
+  }
   .seven {
     margin-top: -78.6vw;
     margin-left: 55.4vw;
-    text-align: end;
   }
   .text-firstscreen {
     font-size: 2vw;
@@ -96,7 +96,6 @@
   .four {
     margin-top: -56.4vw;
     margin-left: 79vw;
-    text-align: end;
   }
   .six {
     margin-top: -69.3vw;
@@ -150,7 +149,6 @@
     width: 100vw;
     height: 50vw;
     overflow: hidden;
-    /* background-color: blue; */
   }
   .row p {
     font-size: 2.87vw;
@@ -165,38 +163,39 @@
     margin-top: -5.5vw;
     z-index: 100;
   }
-  .same-container-row {
+  .same-container-row,
+  .three-same-container-row,
+  .four-same-container-row,
+  .five-same-container-row,
+  .six-same-container-row {
     height: 4.4vw;
+  }
+  .same-container-row {
     width: 29vw;
     margin-left: 66vw;
     margin-top: -5.5vw;
   }
   .three-same-container-row {
-    height: 4.4vw;
     width: 21vw;
     margin-left: 63vw;
     margin-top: -5.5vw;
   }
   .four-same-container-row {
-    height: 4.4vw;
     width: 27vw;
     margin-left: 13vw;
     margin-top: -5.9vw;
   }
   .five-same-container-row {
-    height: 4.4vw;
     width: 24vw;
     margin-left: 21vw;
     margin-top: -5.5vw;
   }
   .six-same-container-row {
-    height: 4.4vw;
     width: 20vw;
     margin-left: 62vw;
     margin-top: -5.9vw;
   }
   .asteroid-circle {
-    /* background-color: green; */
     margin-top: 103vw;
     height: 71vw;
     width: 74vw;
@@ -213,12 +212,7 @@
     margin-top: 16vw;
   }
   /* третий экран */
-  .background2-2 {
-    display: flex;
-    width: 100%;
-    height: 56.25vw;
-    animation: for-the-background 4s steps(1) infinite;
-  }
+  .background2-2,
   .background3-3 {
     display: flex;
     width: 100%;
@@ -233,22 +227,20 @@
     width: 95.922vw;
     height: 83.203vw;
     margin-top: -10vw;
-    /* background-color: red; */
     background-size: 450.75vw 94vw;
     animation: diagramF-adapt 4s steps(1) infinite;
     margin-left: 0vw;
     margin-top: 1vw;
   }
   .diagram-2 {
-    width: 95.15625vw;
+    width: 95.156vw;
     height: 83.203vw;
     background-size: 190vw 90.4vw;
     animation: diagramF2-adapt 0.3s steps(1) infinite;
-    /* background-color: blue; */
   }
   /* пятый экран */
   .column-2 {
-    background-size: 299.48vw 350.9vw;
+    background-size: 302vw 350.9vw;
     animation: unite-adapt 2s steps(1) infinite;
   }
   .column-2,
@@ -260,10 +252,11 @@
     display: none;
   }
   .column-3 {
-    background-image: url(../images/starsiphoneanimation.svg);
+    background-image: url(../images/stars-for-iphone-more.svg);
     background-repeat: no-repeat;
-    background-size: 211.2vw 128vw;
-    animation: iphone-stars 0.3s steps(1) infinite;
+    /* background-size: 211.2vw 128vw; */
+    background-size: 405.2vw 128vw;
+    animation: iphone-stars 1s steps(1) infinite;
   }
   .aster-uno {
     width: 80vw;
@@ -302,9 +295,6 @@
   .text-cover {
     font-size: 4.5vw;
   }
-  /* .for-rotation {
-    rotate: 90deg;
-  } */
   .space {
     height: 130vw;
   }
